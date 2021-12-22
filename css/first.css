@@ -1,0 +1,38 @@
+*{
+    -webkit-
+}
+
+.first{
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    background-color: #999;
+    color: red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px red,
+                -5px -5px 5px blue;
+}
+h1{
+    text-shadow: 40px 10px 10px  red;
+}
+.sec{
+    -webkit-column-count:3;
+    -webkit-colunm-color:red;
+    -webkit-columns: 150px 4;
+    
+}
+.p{
+    -webkit-font-family: 'Potta One', cursive;
+}
+.h2{
+    -webkit-column-span: all;
+}
+.omar div {
+    padding: 10px;
+    border: 1px solid #1C1515;
+    margin: 0;
+    width: 100px;
+    -webkit-font-family: 'Open Sans', sans-serif;
+    -webkit-font-family: 'Roboto', sans-serif;
+}
+.omar div:nth-child(n+3):nth-child(-n+8){background-color: #605A5A}
